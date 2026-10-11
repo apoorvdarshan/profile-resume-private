@@ -11,3 +11,9 @@ The Documents resume files link directly to this checkout; preserve those symlin
 ## Repository maintenance
 
 [Build and interfaces](BUILD.md) · [Contributing](CONTRIBUTING.md) · [Security policy](SECURITY.md) · [Changes](CHANGELOG.md)
+
+Private Scorecard results are available as private Actions artifacts. The scan
+excludes Branch-Protection because the repository's `GITHUB_TOKEN` cannot read
+classic protection rules. Protection was separately verified via the maintainer
+API: linear history, no force pushes/deletion, resolved conversations and zero
+required reviewers. No public Passing badge applies to this private repository.

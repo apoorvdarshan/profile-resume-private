@@ -10,6 +10,7 @@ permissions:
   issues: read
   pull-requests: read
   checks: read
+  statuses: read
 jobs:
   analysis:
     runs-on: ubuntu-latest
@@ -23,7 +24,11 @@ jobs:
         env:
           GITHUB_AUTH_TOKEN: ${{ github.token }}
           REPOSITORY: ${{ github.repository }}
-        run: ./scorecard --repo="github.com/$REPOSITORY" --format=json > scorecard-private.json
+        # GITHUB_TOKEN cannot read classic branch protection; verify it separately.
+        run: >-
+          ./scorecard --repo="github.com/$REPOSITORY" --format=json
+          --checks=Binary-Artifacts,CI-Tests,CII-Best-Practices,Code-Review,Contributors,Dangerous-Workflow,Dependency-Update-Tool,Fuzzing,License,Maintained,Packaging,Pinned-Dependencies,SAST,Security-Policy,Signed-Releases,Token-Permissions,Vulnerabilities
+          > scorecard-private.json
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         with:
           name: private-scorecard-results
