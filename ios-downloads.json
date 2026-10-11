@@ -1,10 +1,11 @@
 {
   "metric": "lifetime first-time App Store downloads",
-  "as_of": "2026-10-09",
+  "target_as_of": "2026-10-09",
   "checked_on": "2026-10-11",
   "apps": {
     "6758935726": {
       "name": "fud-ai",
+      "as_of": "2026-10-09",
       "first_time": 7200,
       "redownload": 358,
       "ios_total_downloads": 7558,
@@ -14,6 +15,7 @@
     },
     "6761645656": {
       "name": "verceltics",
+      "as_of": "2026-10-09",
       "first_time": 1358,
       "redownload": 49,
       "ios_total_downloads": 1407,
@@ -23,6 +25,7 @@
     },
     "6760672848": {
       "name": "scowld",
+      "as_of": "2026-10-09",
       "first_time": 473,
       "redownload": 35,
       "ios_total_downloads": 508,
@@ -32,6 +35,7 @@
     },
     "6760978934": {
       "name": "quit-all",
+      "as_of": "2026-10-09",
       "first_time": 116,
       "redownload": 3,
       "ios_total_downloads": 119,
@@ -41,6 +45,7 @@
     },
     "6792598227": {
       "name": "iitjee",
+      "as_of": "2026-10-09",
       "first_time": 78,
       "redownload": 7,
       "ios_total_downloads": 85,
@@ -50,6 +55,7 @@
     },
     "6783505799": {
       "name": "abysm",
+      "as_of": "2026-10-09",
       "first_time": 42,
       "redownload": 1,
       "ios_total_downloads": 43,
@@ -57,5 +63,7 @@
       "display_total": 42,
       "badge": "40+"
     }
-  }
+  },
+  "as_of": "2026-10-09",
+  "latest_as_of": "2026-10-09"
 }
