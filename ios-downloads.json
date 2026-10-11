@@ -1,0 +1,61 @@
+{
+  "metric": "lifetime first-time App Store downloads",
+  "as_of": "2026-10-09",
+  "checked_on": "2026-10-11",
+  "apps": {
+    "6758935726": {
+      "name": "fud-ai",
+      "first_time": 7200,
+      "redownload": 358,
+      "ios_total_downloads": 7558,
+      "other_platform_downloads": 2512,
+      "display_total": 9712,
+      "badge": "9K+"
+    },
+    "6761645656": {
+      "name": "verceltics",
+      "first_time": 1358,
+      "redownload": 49,
+      "ios_total_downloads": 1407,
+      "other_platform_downloads": 0,
+      "display_total": 1358,
+      "badge": "1K+"
+    },
+    "6760672848": {
+      "name": "scowld",
+      "first_time": 473,
+      "redownload": 35,
+      "ios_total_downloads": 508,
+      "other_platform_downloads": 0,
+      "display_total": 473,
+      "badge": "400+"
+    },
+    "6760978934": {
+      "name": "quit-all",
+      "first_time": 116,
+      "redownload": 3,
+      "ios_total_downloads": 119,
+      "other_platform_downloads": 0,
+      "display_total": 116,
+      "badge": "100+"
+    },
+    "6792598227": {
+      "name": "iitjee",
+      "first_time": 78,
+      "redownload": 7,
+      "ios_total_downloads": 85,
+      "other_platform_downloads": 0,
+      "display_total": 78,
+      "badge": "70+"
+    },
+    "6783505799": {
+      "name": "abysm",
+      "first_time": 42,
+      "redownload": 1,
+      "ios_total_downloads": 43,
+      "other_platform_downloads": 0,
+      "display_total": 42,
+      "badge": "40+"
+    }
+  }
+}
