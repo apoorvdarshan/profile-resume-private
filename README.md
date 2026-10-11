@@ -7,3 +7,7 @@ The workflow updates contributions and stars, compiles the source, validates the
 The Documents resume files link directly to this checkout; preserve those symlinks. Editing them makes this checkout dirty and pauses automatic pulls until the edits are committed or reconciled. The background job writes backups under `~/.local/share/profile-automation/resume-backups`, linked from Documents, without requiring access to the protected Documents folder.
 
 `android-downloads.json` stores the account-wide private Google Play report snapshot, daily history coverage and object provenance. Only explicitly validated production-app mappings contribute to public profile/resume badges; newly discovered or testing apps remain private. The dedicated reporting identity uses short-lived GitHub OIDC credentials, with no JSON key in this repository.
+
+## Repository maintenance
+
+[Build and interfaces](BUILD.md) · [Contributing](CONTRIBUTING.md) · [Security policy](SECURITY.md) · [Changes](CHANGELOG.md)

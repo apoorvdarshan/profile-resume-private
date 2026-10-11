@@ -1,0 +1,31 @@
+name: Private Scorecard
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '43 3 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: read
+  pull-requests: read
+  checks: read
+jobs:
+  analysis:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch verified Scorecard CLI
+        run: |
+          curl -fLsS --retry 3 https://github.com/ossf/scorecard/releases/download/v5.5.0/scorecard_5.5.0_linux_amd64.tar.gz -o scorecard.tar.gz
+          echo '83b90a05c1540ef1390db1cd5711e5fd04be9c1d8537fb84d39d02092d6a8dff  scorecard.tar.gz' | sha256sum -c -
+          tar -xzf scorecard.tar.gz
+      - name: Analyze privately
+        env:
+          GITHUB_AUTH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: ./scorecard --repo="github.com/$REPOSITORY" --format=json > scorecard-private.json
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: private-scorecard-results
+          path: scorecard-private.json
+          retention-days: 7
