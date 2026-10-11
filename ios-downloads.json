@@ -9,9 +9,11 @@
       "first_time": 7200,
       "redownload": 358,
       "ios_total_downloads": 7558,
-      "other_platform_downloads": 2512,
-      "display_total": 9712,
-      "badge": "9K+"
+      "other_platform_downloads": 2579,
+      "display_total": 9779,
+      "badge": "9K+",
+      "android_as_of": "2026-10-07",
+      "android_package": "com.apoorvdarshan.calorietracker"
     },
     "6761645656": {
       "name": "verceltics",
