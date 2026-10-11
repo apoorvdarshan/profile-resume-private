@@ -2266,7 +2266,8 @@
           "https://appstoreconnect.apple.com/apps/6758935726/analytics/metrics?chartType=singleaxis&dateSpec=r%3A20240101%3A20261009&frequency=day&measureKey=redownloads"
         ],
         "api_overlap": "All available days through 2026-10-09 matched exactly"
-      }
+      },
+      "complete_through": "2026-10-09"
     },
     "6792598227": {
       "history_start": "2026-07-24",
@@ -2878,7 +2879,8 @@
           "https://appstoreconnect.apple.com/apps/6792598227/analytics/metrics?chartType=singleaxis&dateSpec=r%3A20240101%3A20261009&frequency=day&measureKey=redownloads"
         ],
         "api_overlap": "All available days through 2026-10-09 matched exactly"
-      }
+      },
+      "complete_through": "2026-10-09"
     },
     "6761645656": {
       "history_start": "2026-04-08",
@@ -4945,7 +4947,8 @@
           "https://appstoreconnect.apple.com/apps/6761645656/analytics/metrics?chartType=singleaxis&dateSpec=r%3A20240101%3A20261009&frequency=day&measureKey=redownloads"
         ],
         "api_overlap": "All available days through 2026-10-09 matched exactly"
-      }
+      },
+      "complete_through": "2026-10-09"
     },
     "6783505799": {
       "history_start": "2026-07-16",
@@ -5393,7 +5396,8 @@
           "https://appstoreconnect.apple.com/apps/6783505799/analytics/metrics?chartType=singleaxis&dateSpec=r%3A20240101%3A20261009&frequency=day&measureKey=redownloads"
         ],
         "api_overlap": "All available days through 2026-10-09 matched exactly"
-      }
+      },
+      "complete_through": "2026-10-09"
     },
     "6760672848": {
       "history_start": "2026-05-21",
@@ -6701,7 +6705,8 @@
           "https://appstoreconnect.apple.com/apps/6760672848/analytics/metrics?chartType=singleaxis&dateSpec=r%3A20240101%3A20261009&frequency=day&measureKey=redownloads"
         ],
         "api_overlap": "All available days through 2026-10-09 matched exactly"
-      }
+      },
+      "complete_through": "2026-10-09"
     },
     "6760978934": {
       "history_start": "2026-03-28",
@@ -7603,7 +7608,8 @@
           "https://appstoreconnect.apple.com/apps/6760978934/analytics/metrics?chartType=singleaxis&dateSpec=r%3A20240101%3A20261009&frequency=day&measureKey=redownloads"
         ],
         "api_overlap": "All available days through 2026-10-09 matched exactly"
-      }
+      },
+      "complete_through": "2026-10-09"
     }
   }
 }
