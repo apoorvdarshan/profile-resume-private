@@ -1,7 +1,7 @@
 {
   "metric": "lifetime first-time App Store downloads",
-  "target_as_of": "2026-10-09",
-  "checked_on": "2026-10-11",
+  "target_as_of": "2026-10-10",
+  "checked_on": "2026-10-12",
   "apps": {
     "6758935726": {
       "name": "fud-ai",
