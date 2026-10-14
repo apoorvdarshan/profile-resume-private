@@ -1,38 +1,38 @@
 {
   "metric": "lifetime first-time App Store downloads",
-  "target_as_of": "2026-10-11",
-  "checked_on": "2026-10-13",
+  "target_as_of": "2026-10-12",
+  "checked_on": "2026-10-14",
   "apps": {
     "6758935726": {
       "name": "fud-ai",
-      "as_of": "2026-10-10",
-      "first_time": 7229,
-      "redownload": 359,
-      "ios_total_downloads": 7588,
-      "other_platform_downloads": 2614,
-      "display_total": 9843,
+      "as_of": "2026-10-11",
+      "first_time": 7277,
+      "redownload": 361,
+      "ios_total_downloads": 7638,
+      "other_platform_downloads": 2638,
+      "display_total": 9915,
       "badge": "9K+",
-      "android_as_of": "2026-10-08",
+      "android_as_of": "2026-10-09",
       "android_package": "com.apoorvdarshan.calorietracker"
     },
     "6761645656": {
       "name": "verceltics",
-      "as_of": "2026-10-10",
-      "first_time": 1364,
+      "as_of": "2026-10-11",
+      "first_time": 1367,
       "redownload": 49,
-      "ios_total_downloads": 1413,
+      "ios_total_downloads": 1416,
       "other_platform_downloads": 0,
-      "display_total": 1364,
+      "display_total": 1367,
       "badge": "1K+"
     },
     "6760672848": {
       "name": "scowld",
-      "as_of": "2026-10-10",
-      "first_time": 478,
-      "redownload": 36,
-      "ios_total_downloads": 514,
+      "as_of": "2026-10-11",
+      "first_time": 488,
+      "redownload": 37,
+      "ios_total_downloads": 525,
       "other_platform_downloads": 0,
-      "display_total": 478,
+      "display_total": 488,
       "badge": "400+"
     },
     "6760978934": {
@@ -47,7 +47,7 @@
     },
     "6792598227": {
       "name": "iitjee",
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "first_time": 78,
       "redownload": 7,
       "ios_total_downloads": 85,
@@ -57,15 +57,15 @@
     },
     "6783505799": {
       "name": "abysm",
-      "as_of": "2026-10-10",
-      "first_time": 42,
+      "as_of": "2026-10-11",
+      "first_time": 43,
       "redownload": 1,
-      "ios_total_downloads": 43,
+      "ios_total_downloads": 44,
       "other_platform_downloads": 0,
-      "display_total": 42,
+      "display_total": 43,
       "badge": "40+"
     }
   },
-  "as_of": "2026-10-09",
-  "latest_as_of": "2026-10-10"
+  "as_of": "2026-10-10",
+  "latest_as_of": "2026-10-11"
 }
